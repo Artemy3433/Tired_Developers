@@ -1,0 +1,60 @@
+body{
+    background-image: url("../imagesHP/back.png");
+    background-size: cover;
+}
+font{
+    font-family: Bahnschrift, serif;
+}
+#bloc1{
+    border: 2px solid #313131;
+    width: 50%;
+    margin: auto;
+    background: #000000;
+    opacity: 70%;
+    color: #ffffff;
+}
+#bloc2{
+    width: 100%;
+    text-align: center;
+    display: block;
+    background: black;
+}
+.tex{
+    margin: 60px;
+}
+.text{
+    margin:40px;
+}
+.image{
+    margin: auto;
+    width: 8%;
+    position: static;
+    margin-right: 200px;
+}
+.image1{
+    width: 9%;
+    margin-bottom: 10px;
+}
+.logo{
+    margin: auto;
+    width: 40%;
+    display: table-cell;
+}
+@font-face {
+    font-family:"Bahnschrift";
+    src: url("../fonts/Bahnschrift.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+.navi {
+    color: white;
+    background: black;
+    background-size: cover;
+    opacity: 70;
+    width: 830px;
+}
+.navi1 {
+    color: #a1a1a1;
+    text-decoration: none;
+    font-size: 20px;
+}
